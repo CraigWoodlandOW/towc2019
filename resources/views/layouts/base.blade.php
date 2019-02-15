@@ -17,26 +17,39 @@
         @stack('styles')
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-            <a class="navbar-brand" href="#">{{ config('app.name', 'Vanilla2 Base') }}</a>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    @inject('menu', 'Menu')
-                    {!! $menu->render([
-                        'bootstrap' => true
-                    ]) !!}
-                </ul>
-            </div>
-
-            @if(View::exists('ecommerce::cart'))
-                <div class="cart-summary">
-                    @include('ecommerce::cart')
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-md-12 header">
+                    <div class="row no-gutters p-3 px-5">
+                        <div class="col-md-4 small-logo-holder">
+                            <a href="{{ url('/')}}">
+                                <img src="/images/logo.svg" alt="Lifeplus Formula official logo"/>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="burger">
+                                <div id="nav-icon1">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
                 </div>
-            @endif
-        </nav>
+            </div>
+            <div class="row no-gutters main-nav">
+                <div class="col-md-10 offset-md-1 align-self-center">
+                    <h1>Navs go here</h1>
+                </div>
+            </div>
+        
+            
 
+            
+        
         @yield('sub-content')
+        </div>    
 
         @minifiedjs('frontend')
 

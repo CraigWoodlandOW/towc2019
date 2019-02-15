@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "097fa2d4287a1bc9f61cdeb77a9428a6",
+    "content-hash": "48d323eb679708f0dbe2dba95b4a256e",
     "packages": [
         {
             "name": "barryvdh/elfinder-flysystem-driver",
@@ -4552,56 +4552,6 @@
             "time": "2019-02-12T11:14:26+00:00"
         },
         {
-            "name": "vanilla2/livechat",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:towc19/vanilla2-livechat.git",
-                "reference": "f739f63075bb99368740c148b9959b07785fc8e0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/towc19/vanilla2-livechat/zipball/f739f63075bb99368740c148b9959b07785fc8e0",
-                "reference": "f739f63075bb99368740c148b9959b07785fc8e0",
-                "shasum": ""
-            },
-            "require": {
-                "ixudra/curl": "6.*"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Vanilla2\\LiveChat\\LiveChatServiceProvider"
-                    ]
-                },
-                "vanilla2": {
-                    "seeds": "Vanilla2\\LiveChat\\Database\\Seeds\\LiveChatSeeder"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Vanilla2\\LiveChat\\": "src/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Jamie Arnold",
-                    "email": "jamie@outstandingweb.co.uk"
-                },
-                {
-                    "name": "Craig Woodland",
-                    "email": "craig@outstandingweb.co.uk"
-                }
-            ],
-            "description": "A package to add Live Chat capabilities to Vanilla2",
-            "support": {
-                "source": "https://github.com/towc19/vanilla2-livechat/tree/master",
-                "issues": "https://github.com/towc19/vanilla2-livechat/issues"
-            },
-            "time": "2019-02-14T12:30:15+00:00"
-        },
-        {
             "name": "vanilla2/menu",
             "version": "dev-master",
             "source": {
@@ -6864,7 +6814,6 @@
         "vanilla2/heroslider": 20,
         "vanilla2/html": 20,
         "vanilla2/jobvacancy": 20,
-        "vanilla2/livechat": 20,
         "vanilla2/menu": 20,
         "vanilla2/payment": 20,
         "vanilla2/popup": 20,
