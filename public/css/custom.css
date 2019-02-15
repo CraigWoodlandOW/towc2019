@@ -393,6 +393,49 @@ a:hover, a:focus {
 }
 }
 
+@media screen and (max-width: 675px) {
+    .upper-holder {
+
+    min-height: 1px;
+    position: relative;
+
+}
+    .large-logo-holder iframe {
+
+    position: absolute;
+    top: -132px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+
+}
+    .large-fish {
+        display: none;
+    }
+    .large-logo-holder {
+
+    position: relative;
+    overflow: hidden;
+
+}
+        h1, h2, h3, h4, h5 {
+
+    color: #fff;
+    padding: 0px 20px;
+    font-size: 28px;
+
+}
+    p {
+
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 13px;
+    line-height: 25px;
+    padding: 0px 20px;
+
+}
+}
+
 @media screen and (max-width: 340px) {
     .large-logo-holder img {
 
