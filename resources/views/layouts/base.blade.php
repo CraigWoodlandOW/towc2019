@@ -23,8 +23,9 @@
                     <div class="row no-gutters p-3 px-5">
                         <div class="col-md-4 small-logo-holder">
                             <a href="{{ url('/')}}">
-                                <img src="/images/logo.svg" alt="Lifeplus Formula official logo"/>
+                                <img src="/images/small-logo.svg" alt="Outstanding web official logo"/>
                             </a>
+                            <a href="tel:01525306114" class="d-inline-flex align-self-center tel-link">Tel: 01525 306 114</a>
                         </div>
                         <div class="col-md-4">
                             <div class="burger">
