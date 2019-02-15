@@ -23,8 +23,12 @@
     <div class="col-md-12 blur-image-holder">
         <img src="/images/large-lizard.jpg" alt="what we do"/>
     </div>
-    <div class="col-md-7 copy-box">
-    
+    <div class="col-md-7 copy-box align-self-center px-3 px-md-5 py-md-5">
+        <p>We understand that all our clients are at different stages in their business timelines and will have differing needs and wants from their Digital Agency. There’s a whole wealth of digital marketing and web design options which we can use to grow and develop your brand effectively. But while some agencies are a little vague on the services they provide, we are of the opinion that a good business decision is an informed one.</p>
+
+        <p>Our products are completely bespoke so it only makes sense that our services are tailor-made too.</p>
+
+        <p>Please click the icons below to explore our list of no-nonsense service packages which can be implemented singularly (as Core or Bolt On), in bundles or as one, overarching solution for your business.</p>
     </div>
     <div class="col-md-5 blur-box lizard-blur">
         <div class="row no-gutters h-100">
@@ -47,8 +51,8 @@
             </div>
         </div>
     </div>
-    <div class="col-md-7 copy-box">
-    
+    <div class="col-md-7 copy-box align-self-center px-3 px-md-5 py-md-5">
+        <p>Our work spans a wide variety of industries with all our clients seeking a way to digitally stand out within them. Every project we create is completely bespoke from start to finish, with every single aspect built from the ground up. But that’s enough about what we do – take a look at the outcome for yourself! </p>
     </div>
     
 </div>
@@ -56,7 +60,7 @@
     <div class="col-md-12 blur-image-holder">
         <img src="/images/large-leopord.jpg" alt="what we do"/>
     </div>
-    <div class="col-md-7 copy-box">
+    <div class="col-md-7 copy-box align-self-center px-3 px-md-5 py-md-5">
     
     </div>
     <div class="col-md-5 blur-box leopord-blur">
@@ -80,8 +84,8 @@
             </div>
         </div>
     </div>
-    <div class="col-md-7 copy-box">
-    
+    <div class="col-md-7 copy-box align-self-center px-3 px-md-5 py-md-5">
+        <p>When you work with us, you don't just get a pretty website, you get years of expertise too! It would be selfish if we kept it all to ourselves, so be sure to check out our blog for emerging news, watch our videos for some insight or help yourself to our handy downloads. All jam-packed with outstanding knowledge you won't want to miss!</p>
     </div>
     
 </div>
@@ -89,7 +93,7 @@
     <div class="col-md-12 blur-image-holder">
         <img src="/images/large-custom-software.jpg" alt="what we do"/>
     </div>
-    <div class="col-md-7 copy-box">
+    <div class="col-md-7 copy-box align-self-center px-3 px-md-5 py-md-5">
     
     </div>
     <div class="col-md-5 blur-box fish-blur">
@@ -113,8 +117,10 @@
             </div>
         </div>
     </div>
-    <div class="col-md-7 copy-box">
-    
+    <div class="col-md-7 copy-box align-self-center px-3 px-md-5 py-md-5">
+        <p>Time is money. We get that. Don’t worry about knowing what you need from the get-go, we’re here to help. </p>
+
+        <p>You can fast-track the whole process by completing our simple contact form with a few key details and a member of our team will be in touch within the same working day.</p>
     </div>
     
 </div>
