@@ -4,15 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    "content-hash": "fa3dc6e1e2f2f0823a41dbe29c4c58ae",
-=======
-    "content-hash": "2a35f2da7850546492541f75ba40909b",
->>>>>>> Stashed changes
-=======
     "content-hash": "097fa2d4287a1bc9f61cdeb77a9428a6",
->>>>>>> origin/master
     "packages": [
         {
             "name": "barryvdh/elfinder-flysystem-driver",
@@ -318,17 +310,10 @@
                 "phpunit/phpunit": "^7.4",
                 "symfony/console": "^2.0.5|^3.0|^4.0",
                 "symfony/phpunit-bridge": "^3.4.5|^4.0.5"
-<<<<<<< Updated upstream
             },
             "suggest": {
                 "symfony/console": "For helpful console commands such as SQL execution and import of files."
             },
-=======
-            },
-            "suggest": {
-                "symfony/console": "For helpful console commands such as SQL execution and import of files."
-            },
->>>>>>> Stashed changes
             "bin": [
                 "bin/doctrine-dbal"
             ],
@@ -692,18 +677,6 @@
         },
         {
             "name": "egulias/email-validator",
-<<<<<<< HEAD
-            "version": "2.1.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "54859fabea8b3beecbb1a282888d5c990036b9e3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/54859fabea8b3beecbb1a282888d5c990036b9e3",
-                "reference": "54859fabea8b3beecbb1a282888d5c990036b9e3",
-=======
             "version": "2.1.7",
             "source": {
                 "type": "git",
@@ -714,7 +687,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/709f21f92707308cdf8f9bcfa1af4cb26586521e",
                 "reference": "709f21f92707308cdf8f9bcfa1af4cb26586521e",
->>>>>>> origin/master
                 "shasum": ""
             },
             "require": {
@@ -758,11 +730,7 @@
                 "validation",
                 "validator"
             ],
-<<<<<<< HEAD
-            "time": "2018-08-16T20:49:45+00:00"
-=======
             "time": "2018-12-04T22:38:24+00:00"
->>>>>>> origin/master
         },
         {
             "name": "erusev/parsedown",
@@ -812,16 +780,16 @@
         },
         {
             "name": "fideloper/proxy",
-            "version": "4.0.0",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fideloper/TrustedProxy.git",
-                "reference": "cf8a0ca4b85659b9557e206c90110a6a4dba980a"
+                "reference": "177c79a2d1f9970f89ee2fb4c12b429af38b6dfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fideloper/TrustedProxy/zipball/cf8a0ca4b85659b9557e206c90110a6a4dba980a",
-                "reference": "cf8a0ca4b85659b9557e206c90110a6a4dba980a",
+                "url": "https://api.github.com/repos/fideloper/TrustedProxy/zipball/177c79a2d1f9970f89ee2fb4c12b429af38b6dfb",
+                "reference": "177c79a2d1f9970f89ee2fb4c12b429af38b6dfb",
                 "shasum": ""
             },
             "require": {
@@ -862,37 +830,336 @@
                 "proxy",
                 "trusted proxy"
             ],
-            "time": "2018-02-07T20:20:57+00:00"
+            "time": "2019-01-10T14:06:47+00:00"
         },
         {
-            "name": "guzzlehttp/psr7",
-            "version": "1.5.2",
+            "name": "firebase/php-jwt",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/guzzle/psr7.git",
-                "reference": "9f83dded91781a01c63574e387eaa769be769115"
+                "url": "https://github.com/firebase/php-jwt.git",
+                "reference": "fa8a06e96526eb7c0eeaa47e4f39be59d21f16e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/9f83dded91781a01c63574e387eaa769be769115",
-                "reference": "9f83dded91781a01c63574e387eaa769be769115",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/fa8a06e96526eb7c0eeaa47e4f39be59d21f16e1",
+                "reference": "fa8a06e96526eb7c0eeaa47e4f39be59d21f16e1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Firebase\\JWT\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Neuman Vong",
+                    "email": "neuman+pear@twilio.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Anant Narayanan",
+                    "email": "anant@php.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
+            "homepage": "https://github.com/firebase/php-jwt",
+            "time": "2015-07-22T18:31:08+00:00"
+        },
+        {
+            "name": "google/apiclient",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/googleapis/google-api-php-client.git",
+                "reference": "cd4d61678bc26267f3e5371735ae3f579709ea30"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client/zipball/cd4d61678bc26267f3e5371735ae3f579709ea30",
+                "reference": "cd4d61678bc26267f3e5371735ae3f579709ea30",
+                "shasum": ""
+            },
+            "require": {
+                "firebase/php-jwt": "~2.0|~3.0",
+                "google/apiclient-services": "*@dev",
+                "google/auth": "0.8",
+                "guzzlehttp/guzzle": "~5.2|~6.0",
+                "guzzlehttp/psr7": "^1.2",
+                "monolog/monolog": "^1.17",
+                "php": ">=5.4",
+                "phpseclib/phpseclib": "~2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4",
+                "squizlabs/php_codesniffer": "~2.3",
+                "symfony/css-selector": "~2.1",
+                "symfony/dom-crawler": "~2.1",
+                "tedivm/stash": "^0.14.1"
+            },
+            "suggest": {
+                "tedivm/stash": "For caching certs and tokens (using Google_Client::setCache)"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Google_": "src/"
+                },
+                "classmap": [
+                    "src/Google/Service/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Client library for Google APIs",
+            "homepage": "http://developers.google.com/api-client-library/php",
+            "keywords": [
+                "google"
+            ],
+            "time": "2016-06-08T01:30:25+00:00"
+        },
+        {
+            "name": "google/apiclient-services",
+            "version": "v0.83",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/googleapis/google-api-php-client-services.git",
+                "reference": "f443f4107d9ba001dad60d18cf1ec0cf0e7234f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/f443f4107d9ba001dad60d18cf1ec0cf0e7234f9",
+                "reference": "f443f4107d9ba001dad60d18cf1ec0cf0e7234f9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Google_Service_": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Client library for Google APIs",
+            "homepage": "http://developers.google.com/api-client-library/php",
+            "keywords": [
+                "google"
+            ],
+            "time": "2019-01-30T22:06:40+00:00"
+        },
+        {
+            "name": "google/auth",
+            "version": "v0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/googleapis/google-auth-library-php.git",
+                "reference": "ec4edcb043e523267973fda308d9412d7db78e17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/ec4edcb043e523267973fda308d9412d7db78e17",
+                "reference": "ec4edcb043e523267973fda308d9412d7db78e17",
+                "shasum": ""
+            },
+            "require": {
+                "firebase/php-jwt": "~2.0|~3.0",
+                "guzzlehttp/guzzle": "~5.3|~6.0",
+                "guzzlehttp/psr7": "1.2.*",
+                "php": ">=5.4",
+                "psr/cache": "^1.0",
+                "psr/http-message": "^1.0"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "^1.11",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ],
+                "psr-4": {
+                    "Google\\Auth\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Google Auth Library for PHP",
+            "homepage": "http://github.com/google/google-auth-library-php",
+            "keywords": [
+                "Authentication",
+                "google",
+                "oauth2"
+            ],
+            "time": "2016-05-11T16:56:35+00:00"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "6.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "d094e337976dff9d8e2424e8485872194e768662"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/d094e337976dff9d8e2424e8485872194e768662",
+                "reference": "d094e337976dff9d8e2424e8485872194e768662",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/promises": "~1.0",
+                "guzzlehttp/psr7": "~1.1",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "~4.0",
+                "psr/log": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.2-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2016-03-21T20:02:09+00:00"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "time": "2016-12-20T10:07:11+00:00"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "2e89629ff057ebb49492ba08e6995d3a6a80021b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/2e89629ff057ebb49492ba08e6995d3a6a80021b",
+                "reference": "2e89629ff057ebb49492ba08e6995d3a6a80021b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
-                "psr/http-message": "~1.0",
-                "ralouphie/getallheaders": "^2.0.5"
+                "psr/http-message": "~1.0"
             },
             "provide": {
                 "psr/http-message-implementation": "1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+                "phpunit/phpunit": "~4.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5-dev"
+                    "dev-master": "1.0-dev"
                 }
             },
             "autoload": {
@@ -912,24 +1179,16 @@
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
-                },
-                {
-                    "name": "Tobias Schultze",
-                    "homepage": "https://github.com/Tobion"
                 }
             ],
-            "description": "PSR-7 message implementation that also provides common utility methods",
+            "description": "PSR-7 message implementation",
             "keywords": [
                 "http",
                 "message",
-                "psr-7",
-                "request",
-                "response",
                 "stream",
-                "uri",
-                "url"
+                "uri"
             ],
-            "time": "2018-12-04T20:46:45+00:00"
+            "time": "2016-02-18T21:54:00+00:00"
         },
         {
             "name": "intervention/image",
@@ -1144,12 +1403,7 @@
         },
         {
             "name": "laravel/framework",
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-            "version": "v5.6.28",
-=======
             "version": "v5.6.39",
->>>>>>> origin/master
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
@@ -1157,25 +1411,8 @@
             },
             "dist": {
                 "type": "zip",
-<<<<<<< HEAD
-                "url": "https://api.github.com/repos/laravel/framework/zipball/40ba2ee0e61cb4bc3c9f1dab04908e6acf06b86f",
-                "reference": "40ba2ee0e61cb4bc3c9f1dab04908e6acf06b86f",
-=======
-            "version": "v5.6.34",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/framework.git",
-                "reference": "66c9cf8119b422b71273271db1f12e20d74ad49b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/66c9cf8119b422b71273271db1f12e20d74ad49b",
-                "reference": "66c9cf8119b422b71273271db1f12e20d74ad49b",
->>>>>>> Stashed changes
-=======
                 "url": "https://api.github.com/repos/laravel/framework/zipball/37bb306f516669ab4f888c16003f694313ab299e",
                 "reference": "37bb306f516669ab4f888c16003f694313ab299e",
->>>>>>> origin/master
                 "shasum": ""
             },
             "require": {
@@ -1301,15 +1538,7 @@
                 "framework",
                 "laravel"
             ],
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-            "time": "2018-07-17T14:15:36+00:00"
-=======
-            "time": "2018-08-21T13:44:37+00:00"
->>>>>>> Stashed changes
-=======
             "time": "2018-10-04T14:50:41+00:00"
->>>>>>> origin/master
         },
         {
             "name": "laravel/tinker",
@@ -1376,29 +1605,16 @@
         },
         {
             "name": "league/flysystem",
-<<<<<<< HEAD
-            "version": "1.0.46",
+            "version": "1.0.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "f3e0d925c18b92cf3ce84ea5cc58d62a1762a2b2"
+                "reference": "dab4e7624efa543a943be978008f439c333f2249"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/f3e0d925c18b92cf3ce84ea5cc58d62a1762a2b2",
-                "reference": "f3e0d925c18b92cf3ce84ea5cc58d62a1762a2b2",
-=======
-            "version": "1.0.49",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "a63cc83d8a931b271be45148fa39ba7156782ffd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a63cc83d8a931b271be45148fa39ba7156782ffd",
-                "reference": "a63cc83d8a931b271be45148fa39ba7156782ffd",
->>>>>>> origin/master
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/dab4e7624efa543a943be978008f439c333f2249",
+                "reference": "dab4e7624efa543a943be978008f439c333f2249",
                 "shasum": ""
             },
             "require": {
@@ -1469,11 +1685,7 @@
                 "sftp",
                 "storage"
             ],
-<<<<<<< HEAD
-            "time": "2018-08-22T07:45:22+00:00"
-=======
-            "time": "2018-11-23T23:41:29+00:00"
->>>>>>> origin/master
+            "time": "2019-02-01T08:50:36+00:00"
         },
         {
             "name": "league/flysystem-cached-adapter",
@@ -1655,16 +1867,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.1.1",
+            "version": "v4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "8aae5b59b83bb4d0dbf07b0a835f2680a658f610"
+                "reference": "594bcae1fc0bccd3993d2f0d61a018e26ac2865a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8aae5b59b83bb4d0dbf07b0a835f2680a658f610",
-                "reference": "8aae5b59b83bb4d0dbf07b0a835f2680a658f610",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/594bcae1fc0bccd3993d2f0d61a018e26ac2865a",
+                "reference": "594bcae1fc0bccd3993d2f0d61a018e26ac2865a",
                 "shasum": ""
             },
             "require": {
@@ -1680,7 +1892,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1-dev"
+                    "dev-master": "4.2-dev"
                 }
             },
             "autoload": {
@@ -1702,7 +1914,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2018-12-26T11:32:39+00:00"
+            "time": "2019-01-12T16:31:37+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -1825,6 +2037,98 @@
             "description": "A library to read, parse and export to PDF SVG files.",
             "homepage": "https://github.com/PhenX/php-svg-lib",
             "time": "2018-06-03T10:10:03+00:00"
+        },
+        {
+            "name": "phpseclib/phpseclib",
+            "version": "2.0.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpseclib/phpseclib.git",
+                "reference": "8ebfcadbf30524aeb75b2c446bc2519d5b321478"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/8ebfcadbf30524aeb75b2c446bc2519d5b321478",
+                "reference": "8ebfcadbf30524aeb75b2c446bc2519d5b321478",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phing/phing": "~2.7",
+                "phpunit/phpunit": "^4.8.35|^5.7|^6.0",
+                "sami/sami": "~2.0",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "suggest": {
+                "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
+                "ext-libsodium": "SSH2/SFTP can make use of some algorithms provided by the libsodium-php extension.",
+                "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
+                "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "phpseclib/bootstrap.php"
+                ],
+                "psr-4": {
+                    "phpseclib\\": "phpseclib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jim Wigginton",
+                    "email": "terrafrost@php.net",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Patrick Monnerat",
+                    "email": "pm@datasphere.ch",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Andreas Fischer",
+                    "email": "bantu@phpbb.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Hans-Jürgen Petrich",
+                    "email": "petrich@tronic-media.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Graham Campbell",
+                    "email": "graham@alt-three.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
+            "homepage": "http://phpseclib.sourceforge.net",
+            "keywords": [
+                "BigInteger",
+                "aes",
+                "asn.1",
+                "asn1",
+                "blowfish",
+                "crypto",
+                "cryptography",
+                "encryption",
+                "rsa",
+                "security",
+                "sftp",
+                "signature",
+                "signing",
+                "ssh",
+                "twofish",
+                "x.509",
+                "x509"
+            ],
+            "time": "2019-01-27T19:37:29+00:00"
         },
         {
             "name": "psr/cache",
@@ -2068,18 +2372,6 @@
         },
         {
             "name": "psy/psysh",
-<<<<<<< HEAD
-            "version": "v0.9.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "4f5b6c090948773a8bfeea6a0f07ab7d0b24e932"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/4f5b6c090948773a8bfeea6a0f07ab7d0b24e932",
-                "reference": "4f5b6c090948773a8bfeea6a0f07ab7d0b24e932",
-=======
             "version": "v0.9.9",
             "source": {
                 "type": "git",
@@ -2090,18 +2382,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/bobthecow/psysh/zipball/9aaf29575bb8293206bb0420c1e1c87ff2ffa94e",
                 "reference": "9aaf29575bb8293206bb0420c1e1c87ff2ffa94e",
->>>>>>> origin/master
                 "shasum": ""
             },
             "require": {
                 "dnoegel/php-xdg-base-dir": "0.1",
                 "ext-json": "*",
                 "ext-tokenizer": "*",
-<<<<<<< HEAD
-                "jakub-onderka/php-console-highlighter": "0.3.*",
-=======
                 "jakub-onderka/php-console-highlighter": "0.3.*|0.4.*",
->>>>>>> origin/master
                 "nikic/php-parser": "~1.3|~2.0|~3.0|~4.0",
                 "php": ">=5.4.0",
                 "symfony/console": "~2.3.10|^2.4.2|~3.0|~4.0",
@@ -2155,51 +2442,7 @@
                 "interactive",
                 "shell"
             ],
-<<<<<<< HEAD
-            "time": "2018-08-11T15:54:43+00:00"
-=======
             "time": "2018-10-13T15:16:03+00:00"
-        },
-        {
-            "name": "ralouphie/getallheaders",
-            "version": "2.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ralouphie/getallheaders.git",
-                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
-                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~3.7.0",
-                "satooshi/php-coveralls": ">=1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/getallheaders.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ralph Khattar",
-                    "email": "ralph.khattar@gmail.com"
-                }
-            ],
-            "description": "A polyfill for getallheaders.",
-            "time": "2016-02-11T07:05:27+00:00"
->>>>>>> origin/master
         },
         {
             "name": "ramsey/uuid",
@@ -2477,16 +2720,16 @@
         },
         {
             "name": "sabre/xml",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabre-io/xml.git",
-                "reference": "c5f510f8d0fa8135de9495145e2758f56037aa1e"
+                "reference": "e15454e68805e3713271ea58c0b2d6a82dac56b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/xml/zipball/c5f510f8d0fa8135de9495145e2758f56037aa1e",
-                "reference": "c5f510f8d0fa8135de9495145e2758f56037aa1e",
+                "url": "https://api.github.com/repos/sabre-io/xml/zipball/e15454e68805e3713271ea58c0b2d6a82dac56b7",
+                "reference": "e15454e68805e3713271ea58c0b2d6a82dac56b7",
                 "shasum": ""
             },
             "require": {
@@ -2535,42 +2778,20 @@
                 "dom",
                 "xml"
             ],
-            "time": "2018-10-09T11:41:10+00:00"
+            "time": "2019-01-09T13:50:52+00:00"
         },
         {
             "name": "studio-42/elfinder",
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-            "version": "2.1.40",
-=======
-            "version": "2.1.44",
->>>>>>> origin/master
+            "version": "2.1.46",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Studio-42/elFinder.git",
-                "reference": "8dadc8cb94ffb3b932b8c7af4077b548062719a6"
+                "reference": "67799d42e7ee0afd3ed13e95f935694a8b3820d1"
             },
             "dist": {
                 "type": "zip",
-<<<<<<< HEAD
-                "url": "https://api.github.com/repos/Studio-42/elFinder/zipball/e27196c574118248c83777725fa007182dcc47c3",
-                "reference": "e27196c574118248c83777725fa007182dcc47c3",
-=======
-            "version": "2.1.41",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Studio-42/elFinder.git",
-                "reference": "8a4000573d1bba41001b996b891d43de3768d610"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Studio-42/elFinder/zipball/8a4000573d1bba41001b996b891d43de3768d610",
-                "reference": "8a4000573d1bba41001b996b891d43de3768d610",
->>>>>>> Stashed changes
-=======
-                "url": "https://api.github.com/repos/Studio-42/elFinder/zipball/8dadc8cb94ffb3b932b8c7af4077b548062719a6",
-                "reference": "8dadc8cb94ffb3b932b8c7af4077b548062719a6",
->>>>>>> origin/master
+                "url": "https://api.github.com/repos/Studio-42/elFinder/zipball/67799d42e7ee0afd3ed13e95f935694a8b3820d1",
+                "reference": "67799d42e7ee0afd3ed13e95f935694a8b3820d1",
                 "shasum": ""
             },
             "require": {
@@ -2615,15 +2836,7 @@
             ],
             "description": "File manager for web",
             "homepage": "http://elfinder.org",
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-            "time": "2018-07-14T06:35:49+00:00"
-=======
-            "time": "2018-08-19T07:28:57+00:00"
->>>>>>> Stashed changes
-=======
-            "time": "2018-12-15T10:55:18+00:00"
->>>>>>> origin/master
+            "time": "2019-01-14T03:59:31+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2686,38 +2899,16 @@
         },
         {
             "name": "symfony/console",
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-            "version": "v4.1.2",
-=======
-            "version": "v4.2.2",
->>>>>>> origin/master
+            "version": "v4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "b0a03c1bb0fcbe288629956cf2f1dd3f1dc97522"
+                "reference": "1f0ad51dfde4da8a6070f06adc58b4e37cbb37a4"
             },
             "dist": {
                 "type": "zip",
-<<<<<<< HEAD
-                "url": "https://api.github.com/repos/symfony/console/zipball/5c31f6a97c1c240707f6d786e7e59bfacdbc0219",
-                "reference": "5c31f6a97c1c240707f6d786e7e59bfacdbc0219",
-=======
-            "version": "v4.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/console.git",
-                "reference": "ca80b8ced97cf07390078b29773dc384c39eee1f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/ca80b8ced97cf07390078b29773dc384c39eee1f",
-                "reference": "ca80b8ced97cf07390078b29773dc384c39eee1f",
->>>>>>> Stashed changes
-=======
-                "url": "https://api.github.com/repos/symfony/console/zipball/b0a03c1bb0fcbe288629956cf2f1dd3f1dc97522",
-                "reference": "b0a03c1bb0fcbe288629956cf2f1dd3f1dc97522",
->>>>>>> origin/master
+                "url": "https://api.github.com/repos/symfony/console/zipball/1f0ad51dfde4da8a6070f06adc58b4e37cbb37a4",
+                "reference": "1f0ad51dfde4da8a6070f06adc58b4e37cbb37a4",
                 "shasum": ""
             },
             "require": {
@@ -2729,6 +2920,9 @@
                 "symfony/dependency-injection": "<3.4",
                 "symfony/process": "<3.3"
             },
+            "provide": {
+                "psr/log-implementation": "1.0"
+            },
             "require-dev": {
                 "psr/log": "~1.0",
                 "symfony/config": "~3.4|~4.0",
@@ -2738,7 +2932,7 @@
                 "symfony/process": "~3.4|~4.0"
             },
             "suggest": {
-                "psr/log-implementation": "For using the console logger",
+                "psr/log": "For using the console logger",
                 "symfony/event-dispatcher": "",
                 "symfony/lock": "",
                 "symfony/process": ""
@@ -2773,31 +2967,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-            "time": "2018-07-16T14:05:40+00:00"
-        },
-        {
-            "name": "symfony/css-selector",
-            "version": "v4.1.2",
-=======
-            "time": "2018-07-26T11:24:31+00:00"
-        },
-        {
-            "name": "symfony/css-selector",
-            "version": "v4.1.3",
->>>>>>> Stashed changes
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/css-selector.git",
-                "reference": "2a4df7618f869b456f9096781e78c57b509d76c7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/2a4df7618f869b456f9096781e78c57b509d76c7",
-                "reference": "2a4df7618f869b456f9096781e78c57b509d76c7",
-=======
-            "time": "2019-01-04T15:13:53+00:00"
+            "time": "2019-01-25T14:35:16+00:00"
         },
         {
             "name": "symfony/contracts",
@@ -2811,7 +2981,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/contracts/zipball/1aa7ab2429c3d594dd70689604b5cf7421254cdf",
                 "reference": "1aa7ab2429c3d594dd70689604b5cf7421254cdf",
->>>>>>> origin/master
                 "shasum": ""
             },
             "require": {
@@ -2870,16 +3039,16 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v4.2.2",
+            "version": "v4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "76dac1dbe2830213e95892c7c2ec1edd74113ea4"
+                "reference": "48eddf66950fa57996e1be4a55916d65c10c604a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/76dac1dbe2830213e95892c7c2ec1edd74113ea4",
-                "reference": "76dac1dbe2830213e95892c7c2ec1edd74113ea4",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/48eddf66950fa57996e1be4a55916d65c10c604a",
+                "reference": "48eddf66950fa57996e1be4a55916d65c10c604a",
                 "shasum": ""
             },
             "require": {
@@ -2919,46 +3088,20 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-<<<<<<< HEAD
-            "time": "2018-07-26T09:10:45+00:00"
+            "time": "2019-01-16T20:31:39+00:00"
         },
         {
             "name": "symfony/debug",
-<<<<<<< Updated upstream
-            "version": "v4.1.2",
-=======
-            "time": "2019-01-03T09:07:35+00:00"
-        },
-        {
-            "name": "symfony/debug",
-            "version": "v4.2.2",
->>>>>>> origin/master
+            "version": "v4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "64cb33c81e37d19b7715d4a6a4d49c1c382066dd"
+                "reference": "cf9b2e33f757deb884ce474e06d2647c1c769b65"
             },
             "dist": {
                 "type": "zip",
-<<<<<<< HEAD
-                "url": "https://api.github.com/repos/symfony/debug/zipball/a1f2118cedb8731c45e945cdd2b808ca82abc4b5",
-                "reference": "a1f2118cedb8731c45e945cdd2b808ca82abc4b5",
-=======
-            "version": "v4.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/debug.git",
-                "reference": "9316545571f079c4dd183e674721d9dc783ce196"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/9316545571f079c4dd183e674721d9dc783ce196",
-                "reference": "9316545571f079c4dd183e674721d9dc783ce196",
->>>>>>> Stashed changes
-=======
-                "url": "https://api.github.com/repos/symfony/debug/zipball/64cb33c81e37d19b7715d4a6a4d49c1c382066dd",
-                "reference": "64cb33c81e37d19b7715d4a6a4d49c1c382066dd",
->>>>>>> origin/master
+                "url": "https://api.github.com/repos/symfony/debug/zipball/cf9b2e33f757deb884ce474e06d2647c1c769b65",
+                "reference": "cf9b2e33f757deb884ce474e06d2647c1c769b65",
                 "shasum": ""
             },
             "require": {
@@ -3001,46 +3144,20 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-            "time": "2018-07-06T14:52:28+00:00"
-=======
-            "time": "2019-01-03T09:07:35+00:00"
->>>>>>> origin/master
+            "time": "2019-01-25T14:35:16+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v4.2.2",
+            "version": "v4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "887de6d34c86cf0cb6cbf910afb170cdb743cb5e"
+                "reference": "bd09ad265cd50b2b9d09d65ce6aba2d29bc81fe1"
             },
             "dist": {
                 "type": "zip",
-<<<<<<< HEAD
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/00d64638e4f0703a00ab7fc2c8ae5f75f3b4020f",
-                "reference": "00d64638e4f0703a00ab7fc2c8ae5f75f3b4020f",
-=======
-            "time": "2018-07-26T11:24:31+00:00"
-        },
-        {
-            "name": "symfony/event-dispatcher",
-            "version": "v4.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "bfb30c2ad377615a463ebbc875eba64a99f6aa3e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/bfb30c2ad377615a463ebbc875eba64a99f6aa3e",
-                "reference": "bfb30c2ad377615a463ebbc875eba64a99f6aa3e",
->>>>>>> Stashed changes
-=======
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/887de6d34c86cf0cb6cbf910afb170cdb743cb5e",
-                "reference": "887de6d34c86cf0cb6cbf910afb170cdb743cb5e",
->>>>>>> origin/master
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/bd09ad265cd50b2b9d09d65ce6aba2d29bc81fe1",
+                "reference": "bd09ad265cd50b2b9d09d65ce6aba2d29bc81fe1",
                 "shasum": ""
             },
             "require": {
@@ -3091,45 +3208,20 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-            "time": "2018-07-10T11:02:47+00:00"
+            "time": "2019-01-16T20:35:37+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v4.1.2",
-=======
-            "time": "2018-07-26T09:10:45+00:00"
-        },
-        {
-            "name": "symfony/finder",
-            "version": "v4.1.3",
->>>>>>> Stashed changes
+            "version": "v4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "e162f1df3102d0b7472805a5a9d5db9fcf0a8068"
+                "reference": "ef71816cbb264988bb57fe6a73f610888b9aa70c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/e162f1df3102d0b7472805a5a9d5db9fcf0a8068",
-                "reference": "e162f1df3102d0b7472805a5a9d5db9fcf0a8068",
-=======
-            "time": "2019-01-05T16:37:49+00:00"
-        },
-        {
-            "name": "symfony/finder",
-            "version": "v4.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/finder.git",
-                "reference": "9094d69e8c6ee3fe186a0ec5a4f1401e506071ce"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/9094d69e8c6ee3fe186a0ec5a4f1401e506071ce",
-                "reference": "9094d69e8c6ee3fe186a0ec5a4f1401e506071ce",
->>>>>>> origin/master
+                "url": "https://api.github.com/repos/symfony/finder/zipball/ef71816cbb264988bb57fe6a73f610888b9aa70c",
+                "reference": "ef71816cbb264988bb57fe6a73f610888b9aa70c",
                 "shasum": ""
             },
             "require": {
@@ -3165,46 +3257,20 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-<<<<<<< HEAD
-            "time": "2018-07-26T11:24:31+00:00"
+            "time": "2019-01-16T20:35:37+00:00"
         },
         {
             "name": "symfony/http-foundation",
-<<<<<<< Updated upstream
-            "version": "v4.1.2",
-=======
-            "time": "2019-01-03T09:07:35+00:00"
-        },
-        {
-            "name": "symfony/http-foundation",
-            "version": "v4.2.2",
->>>>>>> origin/master
+            "version": "v4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "a633d422a09242064ba24e44a6e1494c5126de86"
+                "reference": "8d2318b73e0a1bc75baa699d00ebe2ae8b595a39"
             },
             "dist": {
                 "type": "zip",
-<<<<<<< HEAD
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/8da9ea68ab2d80dfabd41e0d14b9606bb47a10c0",
-                "reference": "8da9ea68ab2d80dfabd41e0d14b9606bb47a10c0",
-=======
-            "version": "v4.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "7d93e3547660ec7ee3dad1428ba42e8076a0e5f1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/7d93e3547660ec7ee3dad1428ba42e8076a0e5f1",
-                "reference": "7d93e3547660ec7ee3dad1428ba42e8076a0e5f1",
->>>>>>> Stashed changes
-=======
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/a633d422a09242064ba24e44a6e1494c5126de86",
-                "reference": "a633d422a09242064ba24e44a6e1494c5126de86",
->>>>>>> origin/master
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/8d2318b73e0a1bc75baa699d00ebe2ae8b595a39",
+                "reference": "8d2318b73e0a1bc75baa699d00ebe2ae8b595a39",
                 "shasum": ""
             },
             "require": {
@@ -3245,46 +3311,20 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-            "time": "2018-07-16T14:05:40+00:00"
-=======
-            "time": "2019-01-05T16:37:49+00:00"
->>>>>>> origin/master
+            "time": "2019-01-29T09:49:29+00:00"
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v4.2.2",
+            "version": "v4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "83de6543328917c18d5498eeb6bb6d36f7aab31b"
+                "reference": "d56b1706abaa771eb6acd894c6787cb88f1dc97d"
             },
             "dist": {
                 "type": "zip",
-<<<<<<< HEAD
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/ebd28f4f88a2ca0a0488882ad73c4004f3afdbe3",
-                "reference": "ebd28f4f88a2ca0a0488882ad73c4004f3afdbe3",
-=======
-            "time": "2018-08-01T14:07:44+00:00"
-        },
-        {
-            "name": "symfony/http-kernel",
-            "version": "v4.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "6347be5110efb27fe45ea04bf213078b67a05036"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/6347be5110efb27fe45ea04bf213078b67a05036",
-                "reference": "6347be5110efb27fe45ea04bf213078b67a05036",
->>>>>>> Stashed changes
-=======
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/83de6543328917c18d5498eeb6bb6d36f7aab31b",
-                "reference": "83de6543328917c18d5498eeb6bb6d36f7aab31b",
->>>>>>> origin/master
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/d56b1706abaa771eb6acd894c6787cb88f1dc97d",
+                "reference": "d56b1706abaa771eb6acd894c6787cb88f1dc97d",
                 "shasum": ""
             },
             "require": {
@@ -3360,23 +3400,11 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-            "time": "2018-07-23T17:16:22+00:00"
-=======
-            "time": "2018-08-01T15:30:34+00:00"
->>>>>>> Stashed changes
-        },
-        {
-            "name": "symfony/polyfill-ctype",
-            "version": "v1.9.0",
-=======
-            "time": "2019-01-06T16:19:23+00:00"
+            "time": "2019-02-03T12:47:33+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
             "version": "v1.10.0",
->>>>>>> origin/master
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -3434,18 +3462,6 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-<<<<<<< HEAD
-            "version": "v1.9.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/d0cd638f4634c16d8df4508e847f14e9e43168b8",
-                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8",
-=======
             "version": "v1.10.0",
             "source": {
                 "type": "git",
@@ -3456,7 +3472,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/c79c051f5b3a46be09205c73b80b346e4153e494",
                 "reference": "c79c051f5b3a46be09205c73b80b346e4153e494",
->>>>>>> origin/master
                 "shasum": ""
             },
             "require": {
@@ -3502,22 +3517,6 @@
                 "portable",
                 "shim"
             ],
-<<<<<<< HEAD
-            "time": "2018-08-06T14:22:27+00:00"
-        },
-        {
-            "name": "symfony/polyfill-php72",
-            "version": "v1.9.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "95c50420b0baed23852452a7f0c7b527303ed5ae"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/95c50420b0baed23852452a7f0c7b527303ed5ae",
-                "reference": "95c50420b0baed23852452a7f0c7b527303ed5ae",
-=======
             "time": "2018-09-21T13:07:52+00:00"
         },
         {
@@ -3532,7 +3531,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/9050816e2ca34a8e916c3a0ae8b9c2fccf68b631",
                 "reference": "9050816e2ca34a8e916c3a0ae8b9c2fccf68b631",
->>>>>>> origin/master
                 "shasum": ""
             },
             "require": {
@@ -3574,41 +3572,20 @@
                 "portable",
                 "shim"
             ],
-<<<<<<< HEAD
-            "time": "2018-08-06T14:22:27+00:00"
-        },
-        {
-            "name": "symfony/process",
-<<<<<<< Updated upstream
-            "version": "v4.1.2",
-=======
-            "version": "v4.1.3",
->>>>>>> Stashed changes
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/process.git",
-                "reference": "f01fc7a4493572f7f506c49dcb50ad01fb3a2f56"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/f01fc7a4493572f7f506c49dcb50ad01fb3a2f56",
-                "reference": "f01fc7a4493572f7f506c49dcb50ad01fb3a2f56",
-=======
             "time": "2018-09-21T13:07:52+00:00"
         },
         {
             "name": "symfony/process",
-            "version": "v4.2.2",
+            "version": "v4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "ea043ab5d8ed13b467a9087d81cb876aee7f689a"
+                "reference": "6c05edb11fbeff9e2b324b4270ecb17911a8b7ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/ea043ab5d8ed13b467a9087d81cb876aee7f689a",
-                "reference": "ea043ab5d8ed13b467a9087d81cb876aee7f689a",
->>>>>>> origin/master
+                "url": "https://api.github.com/repos/symfony/process/zipball/6c05edb11fbeff9e2b324b4270ecb17911a8b7ad",
+                "reference": "6c05edb11fbeff9e2b324b4270ecb17911a8b7ad",
                 "shasum": ""
             },
             "require": {
@@ -3644,46 +3621,20 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-<<<<<<< HEAD
-            "time": "2018-07-26T11:24:31+00:00"
+            "time": "2019-01-24T22:05:03+00:00"
         },
         {
             "name": "symfony/routing",
-<<<<<<< Updated upstream
-            "version": "v4.1.2",
-=======
-            "time": "2019-01-03T14:48:52+00:00"
-        },
-        {
-            "name": "symfony/routing",
-            "version": "v4.2.2",
->>>>>>> origin/master
+            "version": "v4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
-                "reference": "e69b7a13a0b58af378a49b49dd7084462de16cee"
+                "reference": "7f8e44fc498972466f0841c3e48dc555f23bdf53"
             },
             "dist": {
                 "type": "zip",
-<<<<<<< HEAD
-                "url": "https://api.github.com/repos/symfony/routing/zipball/73770bf3682b4407b017c2bdcb2b11cdcbce5322",
-                "reference": "73770bf3682b4407b017c2bdcb2b11cdcbce5322",
-=======
-            "version": "v4.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/routing.git",
-                "reference": "6912cfebc0ea4e7a46fdd15c9bd1f427dd39ff1b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/routing/zipball/6912cfebc0ea4e7a46fdd15c9bd1f427dd39ff1b",
-                "reference": "6912cfebc0ea4e7a46fdd15c9bd1f427dd39ff1b",
->>>>>>> Stashed changes
-=======
-                "url": "https://api.github.com/repos/symfony/routing/zipball/e69b7a13a0b58af378a49b49dd7084462de16cee",
-                "reference": "e69b7a13a0b58af378a49b49dd7084462de16cee",
->>>>>>> origin/master
+                "url": "https://api.github.com/repos/symfony/routing/zipball/7f8e44fc498972466f0841c3e48dc555f23bdf53",
+                "reference": "7f8e44fc498972466f0841c3e48dc555f23bdf53",
                 "shasum": ""
             },
             "require": {
@@ -3747,46 +3698,20 @@
                 "uri",
                 "url"
             ],
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-            "time": "2018-06-28T06:30:33+00:00"
-=======
-            "time": "2019-01-03T09:07:35+00:00"
->>>>>>> origin/master
+            "time": "2019-01-29T09:49:29+00:00"
         },
         {
             "name": "symfony/translation",
-            "version": "v4.2.2",
+            "version": "v4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "939fb792d73f2ce80e6ae9019d205fc480f1c9a0"
+                "reference": "23fd7aac70d99a17a8e6473a41fec8fab3331050"
             },
             "dist": {
                 "type": "zip",
-<<<<<<< HEAD
-                "url": "https://api.github.com/repos/symfony/translation/zipball/2dd74d6b2dcbd46a93971e6ce7d245cf3123e957",
-                "reference": "2dd74d6b2dcbd46a93971e6ce7d245cf3123e957",
-=======
-            "time": "2018-07-26T11:24:31+00:00"
-        },
-        {
-            "name": "symfony/translation",
-            "version": "v4.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/translation.git",
-                "reference": "6fcd1bd44fd6d7181e6ea57a6f4e08a09b29ef65"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/6fcd1bd44fd6d7181e6ea57a6f4e08a09b29ef65",
-                "reference": "6fcd1bd44fd6d7181e6ea57a6f4e08a09b29ef65",
->>>>>>> Stashed changes
-=======
-                "url": "https://api.github.com/repos/symfony/translation/zipball/939fb792d73f2ce80e6ae9019d205fc480f1c9a0",
-                "reference": "939fb792d73f2ce80e6ae9019d205fc480f1c9a0",
->>>>>>> origin/master
+                "url": "https://api.github.com/repos/symfony/translation/zipball/23fd7aac70d99a17a8e6473a41fec8fab3331050",
+                "reference": "23fd7aac70d99a17a8e6473a41fec8fab3331050",
                 "shasum": ""
             },
             "require": {
@@ -3846,46 +3771,20 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-            "time": "2018-07-23T08:20:20+00:00"
-=======
-            "time": "2019-01-03T09:07:35+00:00"
->>>>>>> origin/master
+            "time": "2019-01-27T23:11:39+00:00"
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v4.2.2",
+            "version": "v4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "85bde661b178173d85c6f11ea9d03b61d1212bb2"
+                "reference": "223bda89f9be41cf7033eeaf11bc61a280489c17"
             },
             "dist": {
                 "type": "zip",
-<<<<<<< HEAD
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/9f882aed43f364de1d43038e8fb39703c577afc1",
-                "reference": "9f882aed43f364de1d43038e8fb39703c577afc1",
-=======
-            "time": "2018-07-26T11:24:31+00:00"
-        },
-        {
-            "name": "symfony/var-dumper",
-            "version": "v4.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "69e174f4c02ec43919380171c6f7550753299316"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/69e174f4c02ec43919380171c6f7550753299316",
-                "reference": "69e174f4c02ec43919380171c6f7550753299316",
->>>>>>> Stashed changes
-=======
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/85bde661b178173d85c6f11ea9d03b61d1212bb2",
-                "reference": "85bde661b178173d85c6f11ea9d03b61d1212bb2",
->>>>>>> origin/master
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/223bda89f9be41cf7033eeaf11bc61a280489c17",
+                "reference": "223bda89f9be41cf7033eeaf11bc61a280489c17",
                 "shasum": ""
             },
             "require": {
@@ -3948,7 +3847,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2019-01-03T09:07:35+00:00"
+            "time": "2019-01-30T11:44:30+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -3998,17 +3897,57 @@
             "time": "2017-11-27T11:13:29+00:00"
         },
         {
+            "name": "vanilla2/acceleration",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:towc19/vanilla2-acceleration.git",
+                "reference": "d93e06d67b5ff234f50d8a160ec80cb4626d7099"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/towc19/vanilla2-acceleration/zipball/d93e06d67b5ff234f50d8a160ec80cb4626d7099",
+                "reference": "d93e06d67b5ff234f50d8a160ec80cb4626d7099",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Vanilla2\\Utils\\Acceleration\\AccelerationServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Vanilla2\\Utils\\Acceleration\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Craig Woodland",
+                    "email": "craig@outstandingweb.co.uk"
+                }
+            ],
+            "description": "Key functionality to accelerate development of Vanilla2 & increase portability",
+            "support": {
+                "source": "https://github.com/towc19/vanilla2-acceleration/tree/master",
+                "issues": "https://github.com/towc19/vanilla2-acceleration/issues"
+            },
+            "time": "2019-02-12T08:30:56+00:00"
+        },
+        {
             "name": "vanilla2/accordion",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:towc19/vanilla2-accordion.git",
-                "reference": "6c162ce2b267ebd54cb69114df2e3513587f171b"
+                "reference": "130a9a6cef10d11867775218b864f0edafb3f79b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/towc19/vanilla2-accordion/zipball/6c162ce2b267ebd54cb69114df2e3513587f171b",
-                "reference": "6c162ce2b267ebd54cb69114df2e3513587f171b",
+                "url": "https://api.github.com/repos/towc19/vanilla2-accordion/zipball/130a9a6cef10d11867775218b864f0edafb3f79b",
+                "reference": "130a9a6cef10d11867775218b864f0edafb3f79b",
                 "shasum": ""
             },
             "type": "library",
@@ -4026,16 +3965,16 @@
             },
             "authors": [
                 {
-                    "name": "Jamie Arnold (first one boom)",
+                    "name": "Jamie Arnold",
                     "email": "jamie@outstandingweb.co.uk"
                 }
             ],
             "description": "HTML plugin for the vanilla2 cms system",
             "support": {
-                "source": "https://github.com/wowd/vanilla2-accordion/tree/master",
-                "issues": "https://github.com/wowd/vanilla2-accordion/issues"
+                "source": "https://github.com/towc19/vanilla2-accordion/tree/master",
+                "issues": "https://github.com/towc19/vanilla2-accordion/issues"
             },
-            "time": "2018-12-06T16:53:47+00:00"
+            "time": "2019-01-31T08:59:45+00:00"
         },
         {
             "name": "vanilla2/analytics",
@@ -4043,13 +3982,16 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:towc19/vanilla2-analytics.git",
-                "reference": "e65dc40b7f8189fc0c2d889d0f31001493a0fa26"
+                "reference": "8cc294927dc6e701ef32040c2f23db43bc083e24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/towc19/vanilla2-analytics/zipball/e65dc40b7f8189fc0c2d889d0f31001493a0fa26",
-                "reference": "e65dc40b7f8189fc0c2d889d0f31001493a0fa26",
+                "url": "https://api.github.com/repos/towc19/vanilla2-analytics/zipball/8cc294927dc6e701ef32040c2f23db43bc083e24",
+                "reference": "8cc294927dc6e701ef32040c2f23db43bc083e24",
                 "shasum": ""
+            },
+            "require": {
+                "google/apiclient": "2.0"
             },
             "type": "library",
             "extra": {
@@ -4067,15 +4009,19 @@
             "authors": [
                 {
                     "name": "Tom Gillespy",
-                    "email": "thomasgillespy@gmail.com"
+                    "email": "tom@outstandingweb.co.uk"
+                },
+                {
+                    "name": "Craig Woodland",
+                    "email": "craig@outstandingweb.co.uk"
                 }
             ],
             "description": "The analytics package for vanilla2",
             "support": {
-                "source": "https://github.com/wowd/vanilla2-analytics/tree/master",
-                "issues": "https://github.com/wowd/vanilla2-analytics/issues"
+                "source": "https://github.com/towc19/vanilla2-analytics/tree/master",
+                "issues": "https://github.com/towc19/vanilla2-analytics/issues"
             },
-            "time": "2018-06-14T15:49:50+00:00"
+            "time": "2019-01-17T14:16:33+00:00"
         },
         {
             "name": "vanilla2/blog",
@@ -4083,12 +4029,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:towc19/vanilla2-blog.git",
-                "reference": "2d25342a2c9b987924428b6d9f491a1c02767b4a"
+                "reference": "5083fe140e49fbc6ade38eedf70799e360cd2339"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/towc19/vanilla2-blog/zipball/2d25342a2c9b987924428b6d9f491a1c02767b4a",
-                "reference": "2d25342a2c9b987924428b6d9f491a1c02767b4a",
+                "url": "https://api.github.com/repos/towc19/vanilla2-blog/zipball/5083fe140e49fbc6ade38eedf70799e360cd2339",
+                "reference": "5083fe140e49fbc6ade38eedf70799e360cd2339",
                 "shasum": ""
             },
             "require": {
@@ -4119,10 +4065,10 @@
             ],
             "description": "A blog for the vanilla2 cms system",
             "support": {
-                "source": "https://github.com/wowd/vanilla2-blog/tree/master",
-                "issues": "https://github.com/wowd/vanilla2-blog/issues"
+                "source": "https://github.com/towc19/vanilla2-blog/tree/master",
+                "issues": "https://github.com/towc19/vanilla2-blog/issues"
             },
-            "time": "2018-12-19T14:35:39+00:00"
+            "time": "2019-02-13T15:12:52+00:00"
         },
         {
             "name": "vanilla2/calendar",
@@ -4130,12 +4076,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:towc19/vanilla2-calendar.git",
-                "reference": "caa381e5d3c24aedb73172f5c7cc12fd5a677b36"
+                "reference": "221b5149ba4e7fb1164f7db417611c04acf42c97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/towc19/vanilla2-calendar/zipball/caa381e5d3c24aedb73172f5c7cc12fd5a677b36",
-                "reference": "caa381e5d3c24aedb73172f5c7cc12fd5a677b36",
+                "url": "https://api.github.com/repos/towc19/vanilla2-calendar/zipball/221b5149ba4e7fb1164f7db417611c04acf42c97",
+                "reference": "221b5149ba4e7fb1164f7db417611c04acf42c97",
                 "shasum": ""
             },
             "require": {
@@ -4162,10 +4108,10 @@
             ],
             "description": "The calendar for vanilla2",
             "support": {
-                "source": "https://github.com/wowd/vanilla2-calendar/tree/1.2",
-                "issues": "https://github.com/wowd/vanilla2-calendar/issues"
+                "source": "https://github.com/towc19/vanilla2-calendar/tree/master",
+                "issues": "https://github.com/towc19/vanilla2-calendar/issues"
             },
-            "time": "2018-09-25T13:15:05+00:00"
+            "time": "2019-02-11T15:15:44+00:00"
         },
         {
             "name": "vanilla2/clientlogo",
@@ -4173,12 +4119,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:towc19/vanilla2-clientlogo.git",
-                "reference": "2fbc187ee28d4893ba5ce9091fde80281a95ba38"
+                "reference": "92ec1b8c4943ed340a816d3a5bf83a9b5834e8c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/towc19/vanilla2-clientlogo/zipball/2fbc187ee28d4893ba5ce9091fde80281a95ba38",
-                "reference": "2fbc187ee28d4893ba5ce9091fde80281a95ba38",
+                "url": "https://api.github.com/repos/towc19/vanilla2-clientlogo/zipball/92ec1b8c4943ed340a816d3a5bf83a9b5834e8c8",
+                "reference": "92ec1b8c4943ed340a816d3a5bf83a9b5834e8c8",
                 "shasum": ""
             },
             "type": "library",
@@ -4196,16 +4142,20 @@
             },
             "authors": [
                 {
-                    "name": "Harrison Stevens (first one boom, better than Accordion)",
+                    "name": "Harrison Stevens",
                     "email": "harrison@outstandingweb.co.uk"
+                },
+                {
+                    "name": "Craig Woodland",
+                    "email": "craig@outstandingweb.co.uk"
                 }
             ],
             "description": "Client logo plugin for the vanilla2 cms system",
             "support": {
-                "source": "https://github.com/wowd/vanilla2-clientlogo/tree/master",
-                "issues": "https://github.com/wowd/vanilla2-clientlogo/issues"
+                "source": "https://github.com/towc19/vanilla2-clientlogo/tree/master",
+                "issues": "https://github.com/towc19/vanilla2-clientlogo/issues"
             },
-            "time": "2018-12-06T16:54:34+00:00"
+            "time": "2019-02-13T09:52:33+00:00"
         },
         {
             "name": "vanilla2/core",
@@ -4213,16 +4163,17 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:towc19/vanilla2-core.git",
-                "reference": "e805b0f5e3bb93d3a1c100cd823ee56f023deb02"
+                "reference": "a29e44d928b29a3532dde8e528e6e37dd1526af0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/towc19/vanilla2-core/zipball/e805b0f5e3bb93d3a1c100cd823ee56f023deb02",
-                "reference": "e805b0f5e3bb93d3a1c100cd823ee56f023deb02",
+                "url": "https://api.github.com/repos/towc19/vanilla2-core/zipball/a29e44d928b29a3532dde8e528e6e37dd1526af0",
+                "reference": "a29e44d928b29a3532dde8e528e6e37dd1526af0",
                 "shasum": ""
             },
             "require": {
-                "ixudra/curl": "6.*"
+                "ixudra/curl": "6.*",
+                "vanilla2/acceleration": "dev-master"
             },
             "type": "library",
             "extra": {
@@ -4255,7 +4206,7 @@
                 "source": "https://github.com/towc19/vanilla2-core/tree/master",
                 "issues": "https://github.com/towc19/vanilla2-core/issues"
             },
-            "time": "2019-01-07T09:49:37+00:00"
+            "time": "2019-02-14T16:51:24+00:00"
         },
         {
             "name": "vanilla2/ecommerce",
@@ -4263,12 +4214,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:towc19/vanilla2-ecommerce.git",
-                "reference": "a7cb701bf1042260fd7b0147ec05be88c26b0a37"
+                "reference": "0077b2f58b7954c2c22233b5e79eb755d45ff31f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/towc19/vanilla2-ecommerce/zipball/a7cb701bf1042260fd7b0147ec05be88c26b0a37",
-                "reference": "a7cb701bf1042260fd7b0147ec05be88c26b0a37",
+                "url": "https://api.github.com/repos/towc19/vanilla2-ecommerce/zipball/0077b2f58b7954c2c22233b5e79eb755d45ff31f",
+                "reference": "0077b2f58b7954c2c22233b5e79eb755d45ff31f",
                 "shasum": ""
             },
             "type": "library",
@@ -4292,10 +4243,10 @@
             ],
             "description": "An ecommerce system for the vanilla2 cms system",
             "support": {
-                "source": "https://github.com/wowd/vanilla2-ecommerce/tree/1.0.2",
-                "issues": "https://github.com/wowd/vanilla2-ecommerce/issues"
+                "source": "https://github.com/towc19/vanilla2-ecommerce/tree/master",
+                "issues": "https://github.com/towc19/vanilla2-ecommerce/issues"
             },
-            "time": "2018-10-05T10:44:23+00:00"
+            "time": "2019-02-06T12:46:53+00:00"
         },
         {
             "name": "vanilla2/faq",
@@ -4303,12 +4254,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:towc19/vanilla2-faq.git",
-                "reference": "84fb4f41daf545284c76a896982014123a6ef636"
+                "reference": "048eb9a190a6be04077cf1f24b0e4ac9cb698f62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/towc19/vanilla2-faq/zipball/84fb4f41daf545284c76a896982014123a6ef636",
-                "reference": "84fb4f41daf545284c76a896982014123a6ef636",
+                "url": "https://api.github.com/repos/towc19/vanilla2-faq/zipball/048eb9a190a6be04077cf1f24b0e4ac9cb698f62",
+                "reference": "048eb9a190a6be04077cf1f24b0e4ac9cb698f62",
                 "shasum": ""
             },
             "type": "library",
@@ -4332,10 +4283,10 @@
             ],
             "description": "The FAQ functionality for the Vanilla2 CMS",
             "support": {
-                "source": "https://github.com/wowd/vanilla2-faq/tree/master",
-                "issues": "https://github.com/wowd/vanilla2-faq/issues"
+                "source": "https://github.com/towc19/vanilla2-faq/tree/master",
+                "issues": "https://github.com/towc19/vanilla2-faq/issues"
             },
-            "time": "2018-12-18T13:18:11+00:00"
+            "time": "2019-01-10T09:41:51+00:00"
         },
         {
             "name": "vanilla2/formbuilder",
@@ -4343,12 +4294,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:towc19/vanilla2-formbuilder.git",
-                "reference": "3ac96fc8df0e1d78ad03dee4cea3df45c0855a67"
+                "reference": "200716361be79733e5881c5361b133bb1a13ccf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/towc19/vanilla2-formbuilder/zipball/3ac96fc8df0e1d78ad03dee4cea3df45c0855a67",
-                "reference": "3ac96fc8df0e1d78ad03dee4cea3df45c0855a67",
+                "url": "https://api.github.com/repos/towc19/vanilla2-formbuilder/zipball/200716361be79733e5881c5361b133bb1a13ccf3",
+                "reference": "200716361be79733e5881c5361b133bb1a13ccf3",
                 "shasum": ""
             },
             "type": "library",
@@ -4372,10 +4323,10 @@
             ],
             "description": "A form builder package for Vanilla2",
             "support": {
-                "source": "https://github.com/wowd/vanilla2-formbuilder/tree/1.2",
-                "issues": "https://github.com/wowd/vanilla2-formbuilder/issues"
+                "source": "https://github.com/towc19/vanilla2-formbuilder/tree/master",
+                "issues": "https://github.com/towc19/vanilla2-formbuilder/issues"
             },
-            "time": "2018-09-25T13:32:17+00:00"
+            "time": "2019-01-09T14:43:05+00:00"
         },
         {
             "name": "vanilla2/forum",
@@ -4462,26 +4413,12 @@
                     "email": "craig@outstandingweb.co.uk"
                 }
             ],
-<<<<<<< HEAD
-            "description": "Symfony mechanism for exploring and dumping PHP variables",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "debug",
-                "dump"
-            ],
-<<<<<<< Updated upstream
-            "time": "2018-07-05T11:54:23+00:00"
-=======
-            "time": "2018-07-26T11:24:31+00:00"
->>>>>>> Stashed changes
-=======
             "description": "The gallery functionality for the Vanilla2 CMS",
             "support": {
                 "source": "https://github.com/towc19/vanilla2-gallery/tree/1.1.1",
                 "issues": "https://github.com/towc19/vanilla2-gallery/issues"
             },
             "time": "2018-09-25T14:25:44+00:00"
->>>>>>> origin/master
         },
         {
             "name": "vanilla2/heroslider",
@@ -4489,12 +4426,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:towc19/vanilla2-heroslider.git",
-                "reference": "55594d6163205d7bb91200474c0978b65bd17b9a"
+                "reference": "27c440bd462ea9ac64b197eb589304e0a5986afd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/towc19/vanilla2-heroslider/zipball/55594d6163205d7bb91200474c0978b65bd17b9a",
-                "reference": "55594d6163205d7bb91200474c0978b65bd17b9a",
+                "url": "https://api.github.com/repos/towc19/vanilla2-heroslider/zipball/27c440bd462ea9ac64b197eb589304e0a5986afd",
+                "reference": "27c440bd462ea9ac64b197eb589304e0a5986afd",
                 "shasum": ""
             },
             "type": "library",
@@ -4512,50 +4449,33 @@
             },
             "authors": [
                 {
-                    "name": "Harrison Stevens (Second one boom, still better than Accordion)",
+                    "name": "Harrison Stevens",
+                    "email": "harrison@outstandingweb.co.uk"
+                },
+                {
+                    "name": "Craig Woodland",
                     "email": "harrison@outstandingweb.co.uk"
                 }
             ],
             "description": "heroslider plugin for the vanilla2 cms system",
             "support": {
-                "source": "https://github.com/towc19/vanilla2-heroslider/tree/1.0.1",
+                "source": "https://github.com/towc19/vanilla2-heroslider/tree/master",
                 "issues": "https://github.com/towc19/vanilla2-heroslider/issues"
             },
-            "time": "2018-12-06T16:54:13+00:00"
+            "time": "2019-02-13T09:52:11+00:00"
         },
         {
-<<<<<<< HEAD
-            "name": "vanilla2/blog",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:wowd/vanilla2-blog.git",
-                "reference": "b1681521aaae8e89a539aecbc6ba926149e2b981"
-            },
-            "dist": {
-<<<<<<< Updated upstream
-                "type": "path",
-                "url": "../vanilla2-blog",
-                "reference": "4d91819f67a13f408e6ffc90df46e199f0b0ea46",
-                "shasum": null
-=======
-                "type": "zip",
-                "url": "https://api.github.com/repos/wowd/vanilla2-blog/zipball/b1681521aaae8e89a539aecbc6ba926149e2b981",
-                "reference": "b1681521aaae8e89a539aecbc6ba926149e2b981",
-                "shasum": ""
->>>>>>> Stashed changes
-=======
             "name": "vanilla2/html",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:towc19/vanilla2-html.git",
-                "reference": "97a24cc7a6b3d81ab8080c878d52be0487b63830"
+                "reference": "39a55bd85ae0626cfda4672279f04198aa3a622c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/towc19/vanilla2-html/zipball/97a24cc7a6b3d81ab8080c878d52be0487b63830",
-                "reference": "97a24cc7a6b3d81ab8080c878d52be0487b63830",
+                "url": "https://api.github.com/repos/towc19/vanilla2-html/zipball/39a55bd85ae0626cfda4672279f04198aa3a622c",
+                "reference": "39a55bd85ae0626cfda4672279f04198aa3a622c",
                 "shasum": ""
             },
             "type": "library",
@@ -4579,10 +4499,10 @@
             ],
             "description": "HTML plugin for the vanilla2 cms system",
             "support": {
-                "source": "https://github.com/towc19/vanilla2-html/tree/1.1",
+                "source": "https://github.com/towc19/vanilla2-html/tree/master",
                 "issues": "https://github.com/towc19/vanilla2-html/issues"
             },
-            "time": "2018-09-03T07:55:08+00:00"
+            "time": "2019-01-30T16:04:42+00:00"
         },
         {
             "name": "vanilla2/jobvacancy",
@@ -4590,14 +4510,13 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:towc19/vanilla2-jobvacancy.git",
-                "reference": "f138505a2be2164a68cd9c4880caa0417bba9944"
+                "reference": "9a7983e928384f6cea599dbbc5ea124e129544af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/towc19/vanilla2-jobvacancy/zipball/f138505a2be2164a68cd9c4880caa0417bba9944",
-                "reference": "f138505a2be2164a68cd9c4880caa0417bba9944",
+                "url": "https://api.github.com/repos/towc19/vanilla2-jobvacancy/zipball/9a7983e928384f6cea599dbbc5ea124e129544af",
+                "reference": "9a7983e928384f6cea599dbbc5ea124e129544af",
                 "shasum": ""
->>>>>>> origin/master
             },
             "require": {
                 "doctrine/dbal": "~2.3"
@@ -4625,41 +4544,12 @@
                     "email": "craig@outstandingweb.co.uk"
                 }
             ],
-<<<<<<< HEAD
-            "description": "A blog for the vanilla2 cms system",
-            "support": {
-                "source": "https://github.com/wowd/vanilla2-blog/tree/master",
-                "issues": "https://github.com/wowd/vanilla2-blog/issues"
-            },
-            "time": "2018-08-08T14:23:01+00:00"
-        },
-        {
-            "name": "vanilla2/calendar",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:wowd/vanilla2-calendar.git",
-                "reference": "48a2ad9d2a3207652cfbcc33b006813a7feaf065"
-            },
-            "dist": {
-<<<<<<< Updated upstream
-                "type": "path",
-                "url": "../vanilla2-calendar",
-                "reference": "48a2ad9d2a3207652cfbcc33b006813a7feaf065",
-                "shasum": null
-=======
-                "type": "zip",
-                "url": "https://api.github.com/repos/wowd/vanilla2-calendar/zipball/48a2ad9d2a3207652cfbcc33b006813a7feaf065",
-                "reference": "48a2ad9d2a3207652cfbcc33b006813a7feaf065",
-                "shasum": ""
->>>>>>> Stashed changes
-=======
             "description": "A Job vacancy plugin for the vanilla2 cms system",
             "support": {
-                "source": "https://github.com/towc19/vanilla2-jobvacancy/tree/1.1",
+                "source": "https://github.com/towc19/vanilla2-jobvacancy/tree/master",
                 "issues": "https://github.com/towc19/vanilla2-jobvacancy/issues"
             },
-            "time": "2018-12-06T12:51:08+00:00"
+            "time": "2019-02-12T11:14:26+00:00"
         },
         {
             "name": "vanilla2/livechat",
@@ -4667,14 +4557,13 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:towc19/vanilla2-livechat.git",
-                "reference": "dea4f2f02a9af36f637010e4a02e23f33f80c609"
+                "reference": "f739f63075bb99368740c148b9959b07785fc8e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/towc19/vanilla2-livechat/zipball/dea4f2f02a9af36f637010e4a02e23f33f80c609",
-                "reference": "dea4f2f02a9af36f637010e4a02e23f33f80c609",
+                "url": "https://api.github.com/repos/towc19/vanilla2-livechat/zipball/f739f63075bb99368740c148b9959b07785fc8e0",
+                "reference": "f739f63075bb99368740c148b9959b07785fc8e0",
                 "shasum": ""
->>>>>>> origin/master
             },
             "require": {
                 "ixudra/curl": "6.*"
@@ -4705,33 +4594,12 @@
                     "email": "craig@outstandingweb.co.uk"
                 }
             ],
-<<<<<<< HEAD
-            "description": "The calendar for vanilla2",
-            "support": {
-                "source": "https://github.com/wowd/vanilla2-calendar/tree/master",
-                "issues": "https://github.com/wowd/vanilla2-calendar/issues"
-            },
-            "time": "2018-07-23T15:47:04+00:00"
-        },
-        {
-            "name": "vanilla2/core",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../vanilla2-core",
-<<<<<<< Updated upstream
-                "reference": "0a8fe4bdd2642571e87d339ab64864d464541428",
-=======
-                "reference": "3da6753be67aba03ea97ae446f97cf3ced6d043a",
->>>>>>> Stashed changes
-                "shasum": null
-=======
             "description": "A package to add Live Chat capabilities to Vanilla2",
             "support": {
                 "source": "https://github.com/towc19/vanilla2-livechat/tree/master",
                 "issues": "https://github.com/towc19/vanilla2-livechat/issues"
             },
-            "time": "2018-12-04T16:25:52+00:00"
+            "time": "2019-02-14T12:30:15+00:00"
         },
         {
             "name": "vanilla2/menu",
@@ -4739,14 +4607,13 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:towc19/vanilla2-menu.git",
-                "reference": "60fe416fe7669953788080a37bebcd5cd81986ae"
+                "reference": "fee01eacc6714124a8717bb9fdfb44dc2c7a9a80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/towc19/vanilla2-menu/zipball/60fe416fe7669953788080a37bebcd5cd81986ae",
-                "reference": "60fe416fe7669953788080a37bebcd5cd81986ae",
+                "url": "https://api.github.com/repos/towc19/vanilla2-menu/zipball/fee01eacc6714124a8717bb9fdfb44dc2c7a9a80",
+                "reference": "fee01eacc6714124a8717bb9fdfb44dc2c7a9a80",
                 "shasum": ""
->>>>>>> origin/master
             },
             "type": "library",
             "extra": {
@@ -4764,54 +4631,36 @@
             "authors": [
                 {
                     "name": "Tom Gillespy",
-                    "email": "thomasgillespy@gmail.com"
+                    "email": "tom@outstandingweb.co.uk"
+                },
+                {
+                    "name": "Michael Latham",
+                    "email": "michael@outstandingweb.co.uk"
                 }
             ],
             "description": "A package to put menus into vanilla2",
             "support": {
-                "source": "https://github.com/towc19/vanilla2-menu/tree/1.2.1",
+                "source": "https://github.com/towc19/vanilla2-menu/tree/master",
                 "issues": "https://github.com/towc19/vanilla2-menu/issues"
             },
-            "time": "2018-12-12T16:37:25+00:00"
+            "time": "2019-01-31T09:00:55+00:00"
         },
         {
-<<<<<<< HEAD
-            "name": "vanilla2/ecommerce",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:wowd/vanilla2-ecommerce.git",
-                "reference": "46b6ea4c0e9954bf3f3e08171f67913b8ac80564"
-            },
-            "dist": {
-<<<<<<< Updated upstream
-                "type": "path",
-                "url": "../vanilla2-ecommerce",
-                "reference": "cfd79b051509d0c398277f95b9e5046138f991c3",
-                "shasum": null
-=======
-                "type": "zip",
-                "url": "https://api.github.com/repos/wowd/vanilla2-ecommerce/zipball/46b6ea4c0e9954bf3f3e08171f67913b8ac80564",
-                "reference": "46b6ea4c0e9954bf3f3e08171f67913b8ac80564",
-                "shasum": ""
->>>>>>> Stashed changes
-=======
             "name": "vanilla2/payment",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:towc19/vanilla2-payment.git",
-                "reference": "624449d55bb9e9dbbeeae35cd5b0d6899032f5f5"
+                "reference": "ff0e86a8c68fb753578853798fee89491d507788"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/towc19/vanilla2-payment/zipball/624449d55bb9e9dbbeeae35cd5b0d6899032f5f5",
-                "reference": "624449d55bb9e9dbbeeae35cd5b0d6899032f5f5",
+                "url": "https://api.github.com/repos/towc19/vanilla2-payment/zipball/ff0e86a8c68fb753578853798fee89491d507788",
+                "reference": "ff0e86a8c68fb753578853798fee89491d507788",
                 "shasum": ""
             },
             "require": {
                 "barryvdh/laravel-dompdf": "0.8.3"
->>>>>>> origin/master
             },
             "type": "library",
             "extra": {
@@ -4832,41 +4681,12 @@
                     "email": "craig@outstandingweb.co.uk"
                 }
             ],
-<<<<<<< HEAD
-            "description": "An ecommerce system for the vanilla2 cms system",
-            "support": {
-                "source": "https://github.com/wowd/vanilla2-ecommerce/tree/master",
-                "issues": "https://github.com/wowd/vanilla2-ecommerce/issues"
-            },
-            "time": "2018-08-24T09:14:27+00:00"
-        },
-        {
-            "name": "vanilla2/formbuilder",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:wowd/vanilla2-formbuilder.git",
-                "reference": "55c2c635d3c4c1c0635b298b355d9493f368aa30"
-            },
-            "dist": {
-<<<<<<< Updated upstream
-                "type": "path",
-                "url": "../vanilla2-formbuilder",
-                "reference": "7f1c1f95a1ef6e451fbbf15a84d3c37100830c2d",
-                "shasum": null
-=======
-                "type": "zip",
-                "url": "https://api.github.com/repos/wowd/vanilla2-formbuilder/zipball/55c2c635d3c4c1c0635b298b355d9493f368aa30",
-                "reference": "55c2c635d3c4c1c0635b298b355d9493f368aa30",
-                "shasum": ""
->>>>>>> Stashed changes
-=======
             "description": "The payment functionality for the Vanilla2 CMS",
             "support": {
-                "source": "https://github.com/towc19/vanilla2-payment/tree/1.0",
+                "source": "https://github.com/towc19/vanilla2-payment/tree/master",
                 "issues": "https://github.com/towc19/vanilla2-payment/issues"
             },
-            "time": "2018-12-14T13:41:14+00:00"
+            "time": "2019-02-06T14:00:44+00:00"
         },
         {
             "name": "vanilla2/popup",
@@ -4881,7 +4701,6 @@
                 "url": "https://api.github.com/repos/towc19/vanilla2-popup/zipball/f13c083a342e9f4a90b3594cf57b5a802021bdd0",
                 "reference": "f13c083a342e9f4a90b3594cf57b5a802021bdd0",
                 "shasum": ""
->>>>>>> origin/master
             },
             "type": "library",
             "extra": {
@@ -4902,35 +4721,6 @@
                     "email": "craig@outstandingweb.co.uk"
                 }
             ],
-<<<<<<< HEAD
-            "description": "A form builder package for Vanilla2",
-            "support": {
-                "source": "https://github.com/wowd/vanilla2-formbuilder/tree/master",
-                "issues": "https://github.com/wowd/vanilla2-formbuilder/issues"
-            },
-            "time": "2018-07-31T15:56:23+00:00"
-        },
-        {
-            "name": "vanilla2/html",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:wowd/vanilla2-html.git",
-                "reference": "b74b3b0b6307845bad0b3d7c2b06017c645be26e"
-            },
-            "dist": {
-<<<<<<< Updated upstream
-                "type": "path",
-                "url": "../vanilla2-html",
-                "reference": "5040ab8ba4ed9e8ecdd03d6a2cea717378254353",
-                "shasum": null
-=======
-                "type": "zip",
-                "url": "https://api.github.com/repos/wowd/vanilla2-html/zipball/b74b3b0b6307845bad0b3d7c2b06017c645be26e",
-                "reference": "b74b3b0b6307845bad0b3d7c2b06017c645be26e",
-                "shasum": ""
->>>>>>> Stashed changes
-=======
             "description": "A popup notification plugin for Vanilla2 CMS",
             "support": {
                 "source": "https://github.com/towc19/vanilla2-popup/tree/1.0",
@@ -4991,7 +4781,6 @@
                 "url": "https://api.github.com/repos/towc19/vanilla2-social/zipball/4772d32f4d2114a54e5f0e4ba4b9ad48a6e92cee",
                 "reference": "4772d32f4d2114a54e5f0e4ba4b9ad48a6e92cee",
                 "shasum": ""
->>>>>>> origin/master
             },
             "type": "library",
             "extra": {
@@ -5012,35 +4801,6 @@
                     "email": "craig@outstandingweb.co.uk"
                 }
             ],
-<<<<<<< HEAD
-            "description": "HTML plugin for the vanilla2 cms system",
-            "support": {
-                "source": "https://github.com/wowd/vanilla2-html/tree/master",
-                "issues": "https://github.com/wowd/vanilla2-html/issues"
-            },
-            "time": "2018-07-30T07:47:20+00:00"
-        },
-        {
-            "name": "vanilla2/menu",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:wowd/vanilla2-menu.git",
-                "reference": "848c977bbc80bd128748ec912c93b05335f6075e"
-            },
-            "dist": {
-<<<<<<< Updated upstream
-                "type": "path",
-                "url": "../vanilla2-menu",
-                "reference": "e50deccd93121bd49e849e6ab74171942907dd57",
-                "shasum": null
-=======
-                "type": "zip",
-                "url": "https://api.github.com/repos/wowd/vanilla2-menu/zipball/848c977bbc80bd128748ec912c93b05335f6075e",
-                "reference": "848c977bbc80bd128748ec912c93b05335f6075e",
-                "shasum": ""
->>>>>>> Stashed changes
-=======
             "description": "A package to add social sharing capabilities to Vanilla2",
             "support": {
                 "source": "https://github.com/towc19/vanilla2-social/tree/1.0.1",
@@ -5064,7 +4824,6 @@
             },
             "require": {
                 "ixudra/curl": "6.*"
->>>>>>> origin/master
             },
             "type": "library",
             "extra": {
@@ -5085,21 +4844,12 @@
                     "email": "craig@outstandingweb.co.uk"
                 }
             ],
-<<<<<<< HEAD
-            "description": "A package to put menus into vanilla2",
-            "support": {
-                "source": "https://github.com/wowd/vanilla2-menu/tree/master",
-                "issues": "https://github.com/wowd/vanilla2-menu/issues"
-            },
-            "time": "2018-08-03T14:04:34+00:00"
-=======
             "description": "A package to add support ticketing capabilities to Vanilla2",
             "support": {
                 "source": "https://github.com/towc19/vanilla2-support/tree/master",
                 "issues": "https://github.com/towc19/vanilla2-support/issues"
             },
             "time": "2018-09-25T13:33:53+00:00"
->>>>>>> origin/master
         },
         {
             "name": "vanilla2/teammember",
@@ -5150,33 +4900,21 @@
         },
         {
             "name": "vlucas/phpdotenv",
-<<<<<<< HEAD
-            "version": "v2.5.1",
+            "version": "v2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e"
+                "reference": "2a7dcf7e3e02dc5e701004e51a6f304b713107d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e",
-                "reference": "8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e",
-=======
-            "version": "v2.5.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "cfd5dc225767ca154853752abc93aeec040fcf36"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/cfd5dc225767ca154853752abc93aeec040fcf36",
-                "reference": "cfd5dc225767ca154853752abc93aeec040fcf36",
->>>>>>> origin/master
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2a7dcf7e3e02dc5e701004e51a6f304b713107d5",
+                "reference": "2a7dcf7e3e02dc5e701004e51a6f304b713107d5",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=5.3.9",
+                "symfony/polyfill-ctype": "^1.9"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8.35 || ^5.0"
@@ -5184,7 +4922,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev"
+                    "dev-master": "2.6-dev"
                 }
             },
             "autoload": {
@@ -5209,10 +4947,7 @@
                 "env",
                 "environment"
             ],
-<<<<<<< HEAD
-            "time": "2018-07-29T20:33:41+00:00"
-=======
-            "time": "2018-10-30T17:29:25+00:00"
+            "time": "2019-01-29T11:11:52+00:00"
         },
         {
             "name": "wowd/profanity",
@@ -5258,7 +4993,6 @@
                 "source": "https://github.com/wowd/Profanity/tree/master"
             },
             "time": "2018-11-14T11:15:13+00:00"
->>>>>>> origin/master
         }
     ],
     "packages-dev": [
@@ -5477,12 +5211,7 @@
         },
         {
             "name": "laravel/homestead",
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-            "version": "v7.12.0",
-=======
             "version": "v7.20.0",
->>>>>>> origin/master
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
@@ -5490,25 +5219,8 @@
             },
             "dist": {
                 "type": "zip",
-<<<<<<< HEAD
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/393c4bdc4972af1355dc91b3c28b8a2f1bdbd349",
-                "reference": "393c4bdc4972af1355dc91b3c28b8a2f1bdbd349",
-=======
-            "version": "v7.15.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/homestead.git",
-                "reference": "068814af93aced781d33b4712f211c1c55cedfbc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/068814af93aced781d33b4712f211c1c55cedfbc",
-                "reference": "068814af93aced781d33b4712f211c1c55cedfbc",
->>>>>>> Stashed changes
-=======
                 "url": "https://api.github.com/repos/laravel/homestead/zipball/cae38adcfdde1de1c4581e7a33872adaf9fbf926",
                 "reference": "cae38adcfdde1de1c4581e7a33872adaf9fbf926",
->>>>>>> origin/master
                 "shasum": ""
             },
             "require": {
@@ -5546,28 +5258,20 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-            "time": "2018-07-14T01:02:53+00:00"
-=======
-            "time": "2018-08-23T16:14:12+00:00"
->>>>>>> Stashed changes
-=======
             "time": "2018-12-11T02:04:35+00:00"
->>>>>>> origin/master
         },
         {
             "name": "mockery/mockery",
-            "version": "1.2.0",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mockery/mockery.git",
-                "reference": "100633629bf76d57430b86b7098cd6beb996a35a"
+                "reference": "0eb0b48c3f07b3b89f5169ce005b7d05b18cf1d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mockery/mockery/zipball/100633629bf76d57430b86b7098cd6beb996a35a",
-                "reference": "100633629bf76d57430b86b7098cd6beb996a35a",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/0eb0b48c3f07b3b89f5169ce005b7d05b18cf1d2",
+                "reference": "0eb0b48c3f07b3b89f5169ce005b7d05b18cf1d2",
                 "shasum": ""
             },
             "require": {
@@ -5576,7 +5280,7 @@
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~5.7.10|~6.5|~7.0"
+                "phpunit/phpunit": "~5.7.10|~6.5|~7.0|~8.0"
             },
             "type": "library",
             "extra": {
@@ -5619,7 +5323,7 @@
                 "test double",
                 "testing"
             ],
-            "time": "2018-10-02T21:52:37+00:00"
+            "time": "2019-02-13T09:37:52+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -6301,38 +6005,16 @@
         },
         {
             "name": "phpunit/phpunit",
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-            "version": "7.2.7",
-=======
-            "version": "7.5.1",
->>>>>>> origin/master
+            "version": "7.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c23d78776ad415d5506e0679723cb461d71f488f"
+                "reference": "2896657da5fb237bc316bdfc18c2650efeee0dc0"
             },
             "dist": {
                 "type": "zip",
-<<<<<<< HEAD
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/8e878aff7917ef66e702e03d1359b16eee254e2c",
-                "reference": "8e878aff7917ef66e702e03d1359b16eee254e2c",
-=======
-            "version": "7.3.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "34705f81bddc3f505b9599a2ef96e2b4315ba9b8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/34705f81bddc3f505b9599a2ef96e2b4315ba9b8",
-                "reference": "34705f81bddc3f505b9599a2ef96e2b4315ba9b8",
->>>>>>> Stashed changes
-=======
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c23d78776ad415d5506e0679723cb461d71f488f",
-                "reference": "c23d78776ad415d5506e0679723cb461d71f488f",
->>>>>>> origin/master
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2896657da5fb237bc316bdfc18c2650efeee0dc0",
+                "reference": "2896657da5fb237bc316bdfc18c2650efeee0dc0",
                 "shasum": ""
             },
             "require": {
@@ -6377,11 +6059,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
-                    "dev-master": "7.3-dev"
-=======
                     "dev-master": "7.5-dev"
->>>>>>> origin/master
                 }
             },
             "autoload": {
@@ -6407,15 +6085,7 @@
                 "testing",
                 "xunit"
             ],
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-            "time": "2018-07-15T05:20:50+00:00"
-=======
-            "time": "2018-08-22T06:39:21+00:00"
->>>>>>> Stashed changes
-=======
-            "time": "2018-12-12T07:20:32+00:00"
->>>>>>> origin/master
+            "time": "2019-02-07T14:15:04+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -6528,23 +6198,23 @@
         },
         {
             "name": "sebastian/diff",
-            "version": "3.0.1",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/diff.git",
-                "reference": "366541b989927187c4ca70490a35615d3fef2dce"
+                "reference": "720fcc7e9b5cf384ea68d9d930d480907a0c1a29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/366541b989927187c4ca70490a35615d3fef2dce",
-                "reference": "366541b989927187c4ca70490a35615d3fef2dce",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/720fcc7e9b5cf384ea68d9d930d480907a0c1a29",
+                "reference": "720fcc7e9b5cf384ea68d9d930d480907a0c1a29",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "^7.0",
+                "phpunit/phpunit": "^7.5 || ^8.0",
                 "symfony/process": "^2 || ^3.3 || ^4"
             },
             "type": "library",
@@ -6580,32 +6250,35 @@
                 "unidiff",
                 "unified diff"
             ],
-            "time": "2018-06-10T07:54:39+00:00"
+            "time": "2019-02-04T06:01:07+00:00"
         },
         {
             "name": "sebastian/environment",
-            "version": "4.0.1",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "febd209a219cea7b56ad799b30ebbea34b71eb8f"
+                "reference": "6fda8ce1974b62b14935adc02a9ed38252eca656"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/febd209a219cea7b56ad799b30ebbea34b71eb8f",
-                "reference": "febd209a219cea7b56ad799b30ebbea34b71eb8f",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/6fda8ce1974b62b14935adc02a9ed38252eca656",
+                "reference": "6fda8ce1974b62b14935adc02a9ed38252eca656",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "^7.4"
+                "phpunit/phpunit": "^7.5"
+            },
+            "suggest": {
+                "ext-posix": "*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0-dev"
+                    "dev-master": "4.1-dev"
                 }
             },
             "autoload": {
@@ -6630,7 +6303,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2018-11-25T09:31:21+00:00"
+            "time": "2019-02-01T05:27:49+00:00"
         },
         {
             "name": "sebastian/exporter",
@@ -6982,18 +6655,6 @@
         },
         {
             "name": "symfony/thanks",
-<<<<<<< HEAD
-            "version": "v1.0.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/thanks.git",
-                "reference": "ca74c76a2a43aaa491e7a524fd235e094b1129b5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/thanks/zipball/ca74c76a2a43aaa491e7a524fd235e094b1129b5",
-                "reference": "ca74c76a2a43aaa491e7a524fd235e094b1129b5",
-=======
             "version": "v1.1.0",
             "source": {
                 "type": "git",
@@ -7004,7 +6665,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/thanks/zipball/9474a631b52737c623b6aeba22f00bbc003251da",
                 "reference": "9474a631b52737c623b6aeba22f00bbc003251da",
->>>>>>> origin/master
                 "shasum": ""
             },
             "require": {
@@ -7034,41 +6694,20 @@
                 }
             ],
             "description": "Give thanks (in the form of a GitHub ⭐) to your fellow PHP package maintainers (not limited to Symfony components)!",
-<<<<<<< HEAD
-            "time": "2018-08-05T16:46:52+00:00"
-        },
-        {
-            "name": "symfony/yaml",
-<<<<<<< Updated upstream
-            "version": "v4.1.2",
-=======
-            "version": "v4.1.3",
->>>>>>> Stashed changes
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/yaml.git",
-                "reference": "46bc69aa91fc4ab78a96ce67873a6b0c148fd48c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/46bc69aa91fc4ab78a96ce67873a6b0c148fd48c",
-                "reference": "46bc69aa91fc4ab78a96ce67873a6b0c148fd48c",
-=======
             "time": "2018-08-24T14:08:13+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.2.2",
+            "version": "v4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "d0aa6c0ea484087927b49fd513383a7d36190ca6"
+                "reference": "d461670ee145092b7e2a56c1da7118f19cadadb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/d0aa6c0ea484087927b49fd513383a7d36190ca6",
-                "reference": "d0aa6c0ea484087927b49fd513383a7d36190ca6",
->>>>>>> origin/master
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/d461670ee145092b7e2a56c1da7118f19cadadb0",
+                "reference": "d461670ee145092b7e2a56c1da7118f19cadadb0",
                 "shasum": ""
             },
             "require": {
@@ -7114,11 +6753,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-<<<<<<< HEAD
-            "time": "2018-07-26T11:24:31+00:00"
-=======
-            "time": "2019-01-03T09:07:35+00:00"
->>>>>>> origin/master
+            "time": "2019-01-16T20:35:37+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -7215,11 +6850,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-<<<<<<< HEAD
-=======
         "vanilla2/accordion": 20,
         "vanilla2/analytics": 20,
->>>>>>> origin/master
         "vanilla2/blog": 20,
         "vanilla2/calendar": 20,
         "vanilla2/clientlogo": 20,
@@ -7227,12 +6859,9 @@
         "vanilla2/ecommerce": 20,
         "vanilla2/faq": 20,
         "vanilla2/formbuilder": 20,
-<<<<<<< HEAD
-=======
         "vanilla2/forum": 20,
         "vanilla2/gallery": 20,
         "vanilla2/heroslider": 20,
->>>>>>> origin/master
         "vanilla2/html": 20,
         "vanilla2/jobvacancy": 20,
         "vanilla2/livechat": 20,
