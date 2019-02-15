@@ -6,7 +6,8 @@
         <img src="/images/large-fish.svg" alt="this is an image of a large fish"/>
     </div>
     <div class="col-md-4 offset-md-4 large-logo-holder my-5 text-center align-self-center">
-        <img src="/images/large-logo.svg" alt="Outstanding web large logo"/>
+        <iframe width="100%" height="500px" src="https://www.youtube.com/embed/uyb0wW0ln_g?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loop autoplay></iframe>
+        <img src="/images/transparent-logo.svg" alt="Outstanding web large logo"/>
     </div>
 </div>
 <div class="row no-gutters mb-5">

@@ -186,11 +186,28 @@ a.read-more:hover {
     position: relative;
 }
 
+.large-logo-holder {
+    position: relative;
+}
+
 .large-logo-holder img {
 
-    max-width: 300px;
     margin: 0px auto;
     display: block;
+    width: calc(100% + 10px);
+    max-width: 9000px;
+    position: relative;
+    left: -8px;
+
+}
+
+.large-logo-holder iframe {
+
+    position: absolute;
+    top: -21px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
 
 }
 
@@ -350,4 +367,60 @@ a.tel-link {
     font-weight: 800;
     padding-left: 20px;
 
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1850px) {
+    .large-fish {
+
+    position: absolute;
+    right: -15%;
+    top: -20%;
+    width: 52%;
+    max-width: 800px;
+
+}
+}
+
+@media screen and (max-width: 990px) {
+    .copy-box {
+
+    display: none;
+
+}
+}
+
+@media screen and (max-width: 340px) {
+    .large-logo-holder img {
+
+    max-width: 200px;
+    margin: 0px auto;
+    display: block;
+
+}
+    h1, h2, h3, h4, h5 {
+
+    color: #fff;
+    padding: 0px 20px;
+    font-size: 28px;
+
+}
+    p {
+
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 13px;
+    line-height: 25px;
+    padding: 0px 20px;
+
+}
+    .upper-holder {
+
+    min-height: 1px;
+    position: relative;
+
+}
 }
