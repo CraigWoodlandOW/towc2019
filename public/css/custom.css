@@ -209,6 +209,31 @@ a.read-more  {
 
 .blur-box {
     position: relative;
+    background-size: cover;
+}
+
+.lizard-blur {
+    background-image: url("/images/blur-lizzard.png");
+}
+
+.parrot-blur {
+    background-image: url("/images/blur-parrot.png");
+}
+
+.leopord-blur {
+    background-image: url("/images/blur-leopord.png");
+}
+
+.zebra-blur {
+    background-image: url("/images/blur-zebra.png");
+}
+
+.fish-blur {
+    background-image: url("/images/blur-fish.png");
+}
+
+.penguin-blur {
+    background-image: url("/images/blur-penguin.png");
 }
 
 .blur-box::before {
