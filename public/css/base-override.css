@@ -1,0 +1,32 @@
+a:not([href]):not([tabindex]).btn-success,
+a:not([href]):not([tabindex]).btn-danger,
+a:not([href]):not([tabindex]).btn-primary {
+    color: rgb(255,255,255);
+}
+
+.nav-custom li {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.nav-custom li a {
+    color: rgb(245,245,245);
+    font-weight: bold;
+}
+
+.nav-custom li a:hover {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+.cart-summary {
+    color: rgb(255,255,255);
+}
+
+.cart-summary-info {
+    margin-right: 20px;
+}
+
+.v2-image {
+    width: 100%;
+}
